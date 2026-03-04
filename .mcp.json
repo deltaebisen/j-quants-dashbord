@@ -1,0 +1,28 @@
+{
+    "mcpServers":{
+        "context7": {
+            "command": "cmd",
+            "args": [
+                "/c",
+                "npx",
+                "-y",
+                "@upstash/context7-mcp@latest"
+            ]
+        },
+        "chrome-devtools": {
+            "command": "cmd",
+            "args": [
+                "/c",
+                "npx",
+                "-y",
+                "@upstash/chrome-devtools-mcp@latest"
+            ]
+        },
+        "j-quants-doc-mcp": {
+            "command": "uvx",
+            "args": [
+                "j-quants-doc-mcp"
+            ]
+        }
+    }
+}

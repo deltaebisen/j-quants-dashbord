@@ -1,0 +1,50 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(npm install:*)",
+      "Bash(npx next build:*)",
+      "WebSearch",
+      "WebFetch(domain:jpx-jquants.com)",
+      "WebFetch(domain:jpx.gitbook.io)",
+      "WebFetch(domain:ui.shadcn.com)",
+      "WebFetch(domain:tradingview.github.io)",
+      "Bash(npx shadcn@latest init:*)",
+      "Bash(npx shadcn@latest add:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm ls:*)",
+      "Bash(curl:*)",
+      "Bash(python3:*)",
+      "Bash(python:*)",
+      "Bash(npx tsc:*)",
+      "mcp__ide__getDiagnostics",
+      "Bash(grep:*)",
+      "Bash(node test-margin-api.mjs:*)",
+      "Bash(node test-etf.mjs:*)",
+      "Bash(node test-index.mjs:*)",
+      "Bash(node test-fins.mjs:*)",
+      "Bash(node:*)",
+      "mcp__j-quants-doc-mcp__search_endpoints",
+      "mcp__j-quants-doc-mcp__describe_endpoint",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:qiita.com)",
+      "WebFetch(domain:onto-logy.com)",
+      "WebFetch(domain:zenn.dev)",
+      "WebFetch(domain:segakuin.com)",
+      "WebFetch(domain:investment.abbamboo.com)",
+      "WebFetch(domain:note.com)",
+      "WebFetch(domain:tkstock.site)",
+      "WebFetch(domain:gist.github.com)",
+      "mcp__j-quants-doc-mcp__lookup_property",
+      "WebFetch(domain:disclosure2dl.edinet-fsa.go.jp)",
+      "Bash(ls:*)",
+      "Bash(wc:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "context7",
+    "chrome-devtools",
+    "j-quants-doc-mcp"
+  ]
+}
